@@ -106,6 +106,12 @@
     </build>
     <repositories>
         <repository>
+            <id>central</id>
+            <url>https://repo.maven.apache.org/maven2</url>
+            <snapshots><enabled>false</enabled></snapshots>
+            <releases><enabled>true</enabled></releases>
+        </repository>
+        <repository>
             <id>osgeo</id>
             <name>OSGeo Release Repository</name>
             <url>https://repo.osgeo.org/repository/release/</url>
